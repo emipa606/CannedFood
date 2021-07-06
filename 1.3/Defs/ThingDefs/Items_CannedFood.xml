@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef Abstract="True" Name="CannedBase">
+    <thingClass>ThingWithComps</thingClass>
+    <label>unspecified resource</label>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <graphicData>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <Mass>0.3</Mass>
+      <MarketValue>6.5</MarketValue>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <stackLimit>75</stackLimit>
+    <tickerType>Rare</tickerType>
+    <ingestible>
+      <foodType>Processed</foodType>
+      <preferability>RawBad</preferability>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="CannedBase">
+    <defName>CannedVeggies</defName>
+    <label>canned vegetables</label>
+    <description>Canned vegetables.  May be eaten directly (blegh) or used as a cooking ingredient.  Won't spoil in the heat.</description>
+    <graphicData>
+      <texPath>CannedVeggies</texPath>
+    </graphicData>
+    <thingCategories>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>5</MarketValue>
+    </statBases>
+    <ingestible>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <tasteThought>AteRawFood</tasteThought>
+      <optimalityOffsetHumanlikes>-4</optimalityOffsetHumanlikes>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="CannedBase">
+    <defName>CannedMeat</defName>
+    <label>canned meat</label>
+    <description>Canned meat.  May be eaten directly (blegh) or used as a cooking ingredient.  Won't spoil in the heat.</description>
+    <graphicData>
+      <texPath>CannedMeat</texPath>
+    </graphicData>
+    <thingCategories>
+      <li>MeatRaw</li>
+    </thingCategories>
+    <ingestible>
+      <ingestEffect>EatMeat</ingestEffect>
+      <tasteThought>AteRawFood</tasteThought>
+      <optimalityOffsetHumanlikes>-4</optimalityOffsetHumanlikes>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="CannedBase">
+    <defName>CannedFruit</defName>
+    <label>canned fruit</label>
+    <description>Canned fruit.  May be eaten directly or used as a cooking ingredient.  Won't spoil in the heat.</description>
+    <graphicData>
+      <texPath>CannedFruit</texPath>
+    </graphicData>
+    <thingCategories>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
+    <ingestible>
+      <ingestEffect>EatVegetarian</ingestEffect>
+    </ingestible>
+  </ThingDef>
+  <!-- <ThingDef ParentName="CannedBase">
+		<defName>CannedSoylent</defName>
+		<label>canned soylent green</label>
+		<description>Canned soylent green.  May be eaten directly or used as a cooking ingredient.  Won't spoil in the heat.  Will spoil your appetite.</description>
+		<graphicData>
+			<texPath>CannedSoylent</texPath>
+		</graphicData>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+		<ingestible>
+			<eatEffect>EatMeat</eatEffect>
+		</ingestible>
+	</ThingDef> -->
+</Defs>

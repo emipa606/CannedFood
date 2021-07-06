@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Can</defName>
+    <label>can</label>
+    <description>Used for preserving food.</description>
+    <graphicData>
+      <texPath>CannedFood</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <statBases>
+      <Mass>0.1</Mass>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>3</MarketValue>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.25</DeteriorationRate>
+    </statBases>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+</Defs>

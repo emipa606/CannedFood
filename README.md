@@ -18,7 +18,7 @@ Updated version of this mod by srauon https://steamcommunity.com/sharedfiles/fil
 
 This simple mod gives you the opportunity to make canned food, which are great for both storaging and preserving food. To make canned food, you either need 5 meat or 5 vegetables and a can. You can easily make cans at the smithy for 1 steel, but you first need to research Smithing and Canning, before you are able to do all these things. Your colonists can directly eat the canned food or use these as a part of an ingredient.
 
-The canned food themselves won't spoil and it will take a really long time to deteriorate if they are outside.
+The canned food themselves won&apos;t spoil and it will take a really long time to deteriorate if they are outside.
 
 You can of course still play on your old save after downloading this mod.
 

@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="RecipeBase" Abstract="True">
+    <defName>RecipeBase</defName>
+    <label>make canned food</label>
+    <description>Can some food.</description>
+    <jobString>Canning food.</jobString>
+    <workAmount>200</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+    <researchPrerequisite>CanningI</researchPrerequisite>
+  </RecipeDef>
+  <!-- CookCannedVeggies -->
+  <RecipeDef ParentName="RecipeBase">
+    <defName>CookCannedVeggies</defName>
+    <label>make canned vegetables</label>
+    <description>Put veggies in a sterlized can to prevent rotting.</description>
+    <jobString>Canning vegetables.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Can</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <CannedVeggies>1</CannedVeggies>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>CannedVeggies</li>
+        <li>CannedFruit</li>
+        <li>Milk</li>
+        <li>Hay</li>
+        <li>RawBerries</li>
+        <li>RawAgave</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <!-- CookCannedFruit -->
+  <RecipeDef ParentName="RecipeBase">
+    <defName>CookCannedFruit</defName>
+    <label>make canned fruit</label>
+    <description>Put fruit in a sterlized can to prevent rotting.</description>
+    <jobString>Canning fruit.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBerries</li>
+            <li>RawAgave</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Can</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <CannedFruit>1</CannedFruit>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>CannedFruit</li>
+        <li>CannedVeggies</li>
+        <li>Milk</li>
+        <li>Hay</li>
+        <li>RawCorn</li>
+        <li>RawRice</li>
+        <li>RawFungus</li>
+        <li>RawPotatoes</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <!-- CookCannedMeat -->
+  <RecipeDef ParentName="RecipeBase">
+    <defName>CookCannedMeat</defName>
+    <label>make canned meat</label>
+    <description>Put meat in a sterlized can to prevent rotting.</description>
+    <jobString>Canning meat.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Can</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <CannedMeat>1</CannedMeat>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>CannedMeat</li>
+        <li>Meat_Human</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <!-- CookCannedVeggies x10 -->
+  <RecipeDef ParentName="RecipeBase">
+    <defName>CookCannedVeggiesx10</defName>
+    <label>make canned vegetables x10</label>
+    <description>Put veggies in a sterlized can to prevent rotting.</description>
+    <jobString>Canning vegetables.</jobString>
+    <workAmount>1800</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Can</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CannedVeggies>10</CannedVeggies>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>CannedVeggies</li>
+        <li>CannedFruit</li>
+        <li>Milk</li>
+        <li>Hay</li>
+        <li>RawBerries</li>
+        <li>RawAgave</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <!-- CookCannedFruit x10 -->
+  <RecipeDef ParentName="RecipeBase">
+    <defName>CookCannedFruitx10</defName>
+    <label>make canned fruit x10</label>
+    <description>Put fruit in a sterlized can to prevent rotting.</description>
+    <jobString>Canning fruit.</jobString>
+    <workAmount>1800</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBerries</li>
+            <li>RawAgave</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Can</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CannedFruit>10</CannedFruit>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>CannedFruit</li>
+        <li>CannedVeggies</li>
+        <li>Milk</li>
+        <li>Hay</li>
+        <li>RawCorn</li>
+        <li>RawRice</li>
+        <li>RawFungus</li>
+        <li>RawPotatoes</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>PlantFoodRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <!-- CookCannedMeat x10 -->
+  <RecipeDef ParentName="RecipeBase">
+    <defName>CookCannedMeatx10</defName>
+    <label>make canned meat x10</label>
+    <description>Put meat in a sterlized can to prevent rotting.</description>
+    <jobString>Canning meat.</jobString>
+    <workAmount>1800</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Can</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CannedMeat>10</CannedMeat>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>CannedMeat</li>
+        <li>Meat_Human</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+</Defs>

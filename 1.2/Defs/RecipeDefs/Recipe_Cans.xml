@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="RecipeCans" Abstract="True">
+    <defName>RecipeBase</defName>
+    <label>make cans</label>
+    <description>Make cans.</description>
+    <jobString>Making cans.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>CanningI</researchPrerequisite>
+  </RecipeDef>
+  <!-- Make cans -->
+  <RecipeDef ParentName="RecipeCans">
+    <defName>MakeCans</defName>
+    <label>make cans</label>
+    <description>Makes five cans for food preservation.</description>
+    <jobString>Making cans.</jobString>
+    <workAmount>400</workAmount>
+    <recipeUsers>
+      <li>ElectricSmithy</li>
+      <li>FueledSmithy</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Can>5</Can>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <!-- Smelt cans -->
+  <RecipeDef>
+    <defName>SmeltCans</defName>
+    <label>smelt cans</label>
+    <description>Smelts cans</description>
+    <jobString>Smelting cans</jobString>
+    <workAmount>500</workAmount>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Can</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <Steel>1</Steel>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Can</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+</Defs>
