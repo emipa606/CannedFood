@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
   <ThingDef Abstract="True" Name="CannedBase">
-    <thingClass>ThingWithComps</thingClass>
+    <thingClass>CannedFood.CannedFood</thingClass>
     <label>unspecified resource</label>
     <category>Item</category>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>

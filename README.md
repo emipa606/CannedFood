@@ -70,4 +70,5 @@ Milon for maintaining and adding new features until A12d.
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2501661373]![Image](https://img.shields.io/github/v/release/emipa606/CannedFood?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 

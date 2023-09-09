@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="ResourceBase">
     <defName>Can</defName>
-    <label>can</label>
+    <label>empty can</label>
     <description>Used for preserving food.</description>
     <graphicData>
       <texPath>CannedFood</texPath>
