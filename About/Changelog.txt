@@ -1,5 +1,8 @@
 # Changelog for CannedFood
 
+1.5.0 - Mod updated for 1.5 and passed autotests
+
+
 1.4.2 - Cans consumed or used in recipes will now spawn emtpy cans
 
 
