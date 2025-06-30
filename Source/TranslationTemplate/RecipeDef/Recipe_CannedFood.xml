@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make canned fruit -->
+  <CookCannedFruit.label>make canned fruit</CookCannedFruit.label>
+  <!-- EN: Put fruit in a sterilized can to prevent rotting. -->
+  <CookCannedFruit.description>Put fruit in a sterilized can to prevent rotting.</CookCannedFruit.description>
+  <!-- EN: Canning fruit. -->
+  <CookCannedFruit.jobString>Canning fruit.</CookCannedFruit.jobString>
+  <!-- EN: make canned fruit x10 -->
+  <CookCannedFruitx10.label>make canned fruit x10</CookCannedFruitx10.label>
+  <!-- EN: Put fruit in a sterilized can to prevent rotting. -->
+  <CookCannedFruitx10.description>Put fruit in a sterilized can to prevent rotting.</CookCannedFruitx10.description>
+  <!-- EN: Canning fruit. -->
+  <CookCannedFruitx10.jobString>Canning fruit.</CookCannedFruitx10.jobString>
+  <!-- EN: make canned meat -->
+  <CookCannedMeat.label>make canned meat</CookCannedMeat.label>
+  <!-- EN: Put meat in a sterilized can to prevent rotting. -->
+  <CookCannedMeat.description>Put meat in a sterilized can to prevent rotting.</CookCannedMeat.description>
+  <!-- EN: Canning meat. -->
+  <CookCannedMeat.jobString>Canning meat.</CookCannedMeat.jobString>
+  <!-- EN: make canned meat x10 -->
+  <CookCannedMeatx10.label>make canned meat x10</CookCannedMeatx10.label>
+  <!-- EN: Put meat in a sterilized can to prevent rotting. -->
+  <CookCannedMeatx10.description>Put meat in a sterilized can to prevent rotting.</CookCannedMeatx10.description>
+  <!-- EN: Canning meat. -->
+  <CookCannedMeatx10.jobString>Canning meat.</CookCannedMeatx10.jobString>
+  <!-- EN: make canned vegetables -->
+  <CookCannedVeggies.label>make canned vegetables</CookCannedVeggies.label>
+  <!-- EN: Put veggies in a sterilized can to prevent rotting. -->
+  <CookCannedVeggies.description>Put veggies in a sterilized can to prevent rotting.</CookCannedVeggies.description>
+  <!-- EN: Canning vegetables. -->
+  <CookCannedVeggies.jobString>Canning vegetables.</CookCannedVeggies.jobString>
+  <!-- EN: make canned vegetables x10 -->
+  <CookCannedVeggiesx10.label>make canned vegetables x10</CookCannedVeggiesx10.label>
+  <!-- EN: Put veggies in a sterilized can to prevent rotting. -->
+  <CookCannedVeggiesx10.description>Put veggies in a sterilized can to prevent rotting.</CookCannedVeggiesx10.description>
+  <!-- EN: Canning vegetables. -->
+  <CookCannedVeggiesx10.jobString>Canning vegetables.</CookCannedVeggiesx10.jobString>
+</LanguageData>

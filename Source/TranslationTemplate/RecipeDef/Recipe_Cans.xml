@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make cans -->
+  <MakeCans.label>make cans</MakeCans.label>
+  <!-- EN: Makes five cans for food preservation. -->
+  <MakeCans.description>Makes five cans for food preservation.</MakeCans.description>
+  <!-- EN: Making cans. -->
+  <MakeCans.jobString>Making cans.</MakeCans.jobString>
+  <!-- EN: smelt cans -->
+  <SmeltCans.label>smelt cans</SmeltCans.label>
+  <!-- EN: Smelts cans -->
+  <SmeltCans.description>Smelts cans</SmeltCans.description>
+  <!-- EN: Smelting cans -->
+  <SmeltCans.jobString>Smelting cans</SmeltCans.jobString>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: canned fruit -->
+  <CannedFruit.label>canned fruit</CannedFruit.label>
+  <!-- EN: Canned fruit.  May be eaten directly or used as a cooking ingredient.  Won't spoil in the heat. -->
+  <CannedFruit.description>Canned fruit.  May be eaten directly or used as a cooking ingredient.  Won't spoil in the heat.</CannedFruit.description>
+  <!-- EN: canned meat -->
+  <CannedMeat.label>canned meat</CannedMeat.label>
+  <!-- EN: Canned meat.  May be eaten directly (blegh) or used as a cooking ingredient.  Won't spoil in the heat. -->
+  <CannedMeat.description>Canned meat.  May be eaten directly (blegh) or used as a cooking ingredient.  Won't spoil in the heat.</CannedMeat.description>
+  <!-- EN: canned vegetables -->
+  <CannedVeggies.label>canned vegetables</CannedVeggies.label>
+  <!-- EN: Canned vegetables.  May be eaten directly (blegh) or used as a cooking ingredient.  Won't spoil in the heat. -->
+  <CannedVeggies.description>Canned vegetables.  May be eaten directly (blegh) or used as a cooking ingredient.  Won't spoil in the heat.</CannedVeggies.description>
+</LanguageData>

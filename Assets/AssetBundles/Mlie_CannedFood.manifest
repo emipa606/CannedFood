@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 193003602
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e5dbc1e264fa796543f7365d405952c3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e5dbc1e264fa796543f7365d405952c3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.CannedFood/Textures/CannedFruit/CannedFruit_a.png
+- Assets/Data/Mlie.CannedFood/Textures/CannedMeat/CannedMeat_b.png
+- Assets/Data/Mlie.CannedFood/Textures/CannedVeggies/CannedVeggies_c.png
+- Assets/Data/Mlie.CannedFood/Textures/CannedFruit/CannedFruit_c.png
+- Assets/Data/Mlie.CannedFood/Textures/CannedVeggies/CannedVeggies_b.png
+- Assets/Data/Mlie.CannedFood/Textures/CannedVeggies/CannedVeggies_a.png
+- Assets/Data/Mlie.CannedFood/Textures/CannedFood/CannedFood_c.png
+- Assets/Data/Mlie.CannedFood/Textures/CannedFood/CannedFood_b.png
+- Assets/Data/Mlie.CannedFood/Textures/CannedMeat/CannedMeat_a.png
+- Assets/Data/Mlie.CannedFood/Textures/CannedFood/CannedFood_a.png
+- Assets/Data/Mlie.CannedFood/Textures/CannedMeat/CannedMeat_c.png
+- Assets/Data/Mlie.CannedFood/Textures/CannedFruit/CannedFruit_b.png
+Dependencies: []
