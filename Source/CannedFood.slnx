@@ -3,4 +3,21 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="CannedFood/CannedFood.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs/">
+    <File Path="../1.7/Defs/ThingDefs/Items_CannedFood.xml" />
+    <File Path="../1.7/Defs/ThingDefs/Items_Cans.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/ResearchProjects_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/RecipeDefs/">
+    <File Path="../1.7/Defs/RecipeDefs/Recipe_CannedFood.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipe_Cans.xml" />
+  </Folder>
 </Solution>
